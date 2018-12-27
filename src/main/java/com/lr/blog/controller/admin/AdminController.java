@@ -80,6 +80,7 @@ public class AdminController {
         String password = request.getParameter("password");
         String rememberme = request.getParameter("rememberme");
         User user = userService.getUserByNameOrEmail(username);
+
         if(user==null) {
             map.put("code",0);
             map.put("msg","用户名无效！");
