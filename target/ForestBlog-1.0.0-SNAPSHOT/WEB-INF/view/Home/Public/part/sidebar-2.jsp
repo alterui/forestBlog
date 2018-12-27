@@ -57,10 +57,10 @@
                         </a>
                     </li>
                 </ul>
-                <div class="about-inf">
+               <%-- <div class="about-inf">
                     <span class="about-pn">文章 ${siteBasicStatistics[0]} </span>
                     <span class="about-cn">留言 ${siteBasicStatistics[1]} </span>
-                </div>
+                </div>--%>
             </div>
         </div>
         <div class="clear"></div>

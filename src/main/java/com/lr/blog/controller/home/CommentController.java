@@ -49,7 +49,9 @@ public class CommentController {
         commentService.insertComment(comment);
 
         //更新文章的评论数
+        //得到article
         Article article = articleService.getArticleByStatusAndId(ArticleStatus.PUBLISH.getValue(), comment.getCommentArticleId());
+       // article.setArticleCommentCount(article.getArticleCommentCount() + 1);
         articleService.updateCommentCount(article.getArticleId());
     }
 
