@@ -108,8 +108,6 @@
     </form>
 
     <blockquote class="layui-elem-quote layui-quote-nm">
-        温馨提示：
-        1、插入代码前，可以点击 <a href="http://liuyanzhao.com/code-highlight.html" target="_blank">代码高亮</a>,将代码转成HTML格式
     </blockquote>
 
 </rapid:override>
