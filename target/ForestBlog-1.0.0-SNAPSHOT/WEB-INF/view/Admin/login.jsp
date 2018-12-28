@@ -22,7 +22,7 @@
     <style type="text/css">
         body{
             font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif;
-            background: url(http://blogcdn.liuyanzhao.com/img/loginBg.jpg);
+            background-image: url('/img/loginBG.jpg');
             width:100%;
             height:100%;
         }
@@ -106,7 +106,7 @@
         if(typeof wpOnload=='function')wpOnload();
     </script>
 
-    <p id="backtoblog"><a href="/">&larr; 返回到前台博客</a></p>
+    <%--<p id="backtoblog"><a href="/">&larr; 返回到前台博客</a></p>--%>
 
 </div>
 
