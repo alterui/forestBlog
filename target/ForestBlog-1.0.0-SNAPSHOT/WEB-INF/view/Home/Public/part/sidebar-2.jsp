@@ -23,7 +23,7 @@
                     </div>
                     <div class="about-name">${options.optionAboutsiteTitle}</div>
                     <div class="about-the">
-                        ${options.optionAboutsiteContent}
+                        ${options.optionMetaDescrption}
                     </div>
                 </div>
                 <div class="clear"></div>
