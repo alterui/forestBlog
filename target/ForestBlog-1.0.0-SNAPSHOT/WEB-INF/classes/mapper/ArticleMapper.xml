@@ -243,7 +243,7 @@
         limit #{limit}
     </select>
 
-    <update id="updateCommentCount" parameterType="Integer">
+   <!-- <update id="updateCommentCount" parameterType="Integer">
         UPDATE
         <include refid="tb"/>
         SET article_comment_count=
@@ -252,6 +252,17 @@
         WHERE article.article_id=comment.comment_article_id AND comment_status=1
         )
         WHERE article_id=#{articleId}
+    </update>-->
+
+    <update id="updateCommentCount" parameterType="Integer">
+        UPDATE
+        <include refid="tb"/>
+        SET article_comment_count=
+        (
+        SELECT count(*) FROM `comment`
+        WHERE comment.comment_article_id = #{articleId}
+        )
+
     </update>
 
     <!--获得最后更新的记录-->
