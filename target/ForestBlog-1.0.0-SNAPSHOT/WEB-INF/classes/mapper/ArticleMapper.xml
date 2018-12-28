@@ -262,6 +262,7 @@
         SELECT count(*) FROM `comment`
         WHERE comment.comment_article_id = #{articleId}
         )
+        WHERE article_id=#{articleId}
 
     </update>
 
