@@ -51,10 +51,14 @@
 
                             <figure class="thumbnail">
                                 <a href="/article/${a.articleId}">
-                                    <img width="280" height="210"
+                                    <%--<img width="280" height="210"
                                          src="/img/thumbnail/random/img_${a.articleId%15}.jpg"
                                          class="attachment-content size-content wp-post-image"
-                                         alt="${a.articleTitle}">
+                                         alt="${a.articleTitle}">--%>
+                                        <img width="280" height="210"
+                                             src="/img/thumbnail/random/img.jpg"
+                                             class="attachment-content size-content wp-post-image"
+                                             alt="${a.articleTitle}">
                                 </a>
                                 <span class="cat">
                                               <a href="/category/${a.categoryList[0].categoryId}">${a.categoryList[0].categoryName}</a>
