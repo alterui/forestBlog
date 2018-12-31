@@ -331,24 +331,18 @@
                             <c:if test="${sessionScope.user == null}">
                                 <input type="hidden" name="commentRole" value="0">
                                 <p class="comment-form-author">
-                                    <label for="author_name">
-                                        昵称<span class="required">*</span>
-                                    </label>
-                                    <input type="text" name="commentAuthorName" id="author_name" class="" value=""
-                                           tabindex="2" required>
+                                    <label for="author_name">昵称<span class="required">*</span></label>
+                                    <input type="id" name="commentAuthorName" id="author_name" class="" value="" tabindex="2" required>
                                 </p>
                                 <p class="comment-form-email">
-                                    <label for="author_email">
-                                        邮箱<span class="required">*</span>
-                                    </label>
-                                    <input type="email" name="commentAuthorEmail" id="author_email" class="" value=""
-                                           tabindex="3" required>
+                                    <label for="author_email">邮箱<span class="required">*</span></label>
+                                    <input type="email" name="commentAuthorEmail" id="author_email" class="" value="" tabindex="3" required>
                                 </p>
-                                <p class="comment-form-url">
+                                <%--<p class="comment-form-url">
                                     <label for="author_url">网址</label>
                                     <input type="url" name="commentAuthorUrl" id="author_url" class="" value=""
                                            tabindex="4">
-                                </p>
+                                </p>--%>
                             </c:if>
                         </div>
                         <div class="clear"></div>
@@ -358,6 +352,10 @@
                                    value="${article.articleId}" id="article_id">
                             <input type="hidden" name="commentPid" id="comment_pid" value="0">
                         </p>
+                        <span class="mail-notify">
+													<input type="checkbox" name="comment_mail_notify" id="comment_mail_notify" checked="checked" class="notify" value="comment_mail_notify" />
+												<label for="comment_mail_notify"><span>有回复时邮件通知我</span></label>
+					</span>
                     </form>
                 </div>
 
