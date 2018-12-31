@@ -74,7 +74,7 @@
                             <c:forEach items="${allCategoryList}" var="category">
                                 <c:if test="${category.categoryPid==0}">
                                     <li>
-                                        <a href="/category/${category.categoryId}">
+                                        <a href="/category/${category.categoryId}" target="_parent">
                                             <i class="${category.categoryIcon}"></i>
                                             <span class="font-text">${category.categoryName}&nbsp;</span>
                                         </a>
@@ -82,7 +82,7 @@
                                             <c:forEach items="${allCategoryList}" var="cate">
                                                 <c:if test="${cate.categoryPid==category.categoryId}">
                                                     <li>
-                                                        <a href="/category/${cate.categoryId}" target="_blank">${cate.categoryName}</a>
+                                                        <a href="/category/${cate.categoryId}" target="_parent">${cate.categoryName}</a>
                                                     </li>
                                                 </c:if>
                                             </c:forEach>

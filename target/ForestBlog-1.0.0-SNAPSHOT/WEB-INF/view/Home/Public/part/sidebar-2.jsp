@@ -111,28 +111,25 @@
     </aside>
     <%--所有标签 end--%>
 
-
-    <%--最新评论 start--%>
-    <aside id="recent_comments-2" class="widget recent_comments wow fadeInUp" data-wow-delay="0.3s"><h3
-            class="widget-title"><i class="fa fa-bars"></i>近期评论</h3>
-        <div id="message" class="message-widget">
-            <ul>
-                <c:forEach items="${recentCommentList}" var="r">
-                <li style="border: none;">
-                    <a href="/article/${r.commentArticleId}/#anchor-comment-${r.commentId}"  rel="external nofollow">
-                        <%--<img alt="" src="${r.commentAuthorAvatar}" class="avatar avatar-64 photo" height="64" width="64">--%>
-                        <span class="comment_author">
-                            <strong>${r.commentAuthorName}</strong>
-                        </span>
-                            ${r.commentContent}
-                    </a>
-                </li>
-                </c:forEach>
-            </ul>
-        </div>
-        <div class="clear"></div>
-    </aside>
-    <%--最新评论 end--%>
+        <%--热评文章 start--%>
+        <aside class="widget hot_comment" >
+            <h3 class="widget-title">
+                <i class="fa fa-bars"></i>热评文章
+            </h3>
+            <div id="hot_comment_widget">
+                <ul>
+                    <c:forEach items="${mostCommentArticleList}" var="m">
+                        <li>
+                            <a href="/article/${m.articleId}" rel="bookmark" title=" (${m.articleCommentCount}条评论)">
+                                    ${m.articleTitle}
+                            </a>
+                        </li>
+                    </c:forEach>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </aside>
+        <%--热评文章 end--%>
 
 </div>
 

@@ -70,7 +70,7 @@ public class ArticleController {
         List<Article> similarArticleList = articleService.listArticleByCategoryIds(categoryIds, 5);
         model.addAttribute("similarArticleList", similarArticleList);
 
-        //猜你喜欢
+        //猜你喜欢，根据浏览量
         List<Article> mostViewArticleList = articleService.listArticleByViewCount(5);
         model.addAttribute("mostViewArticleList", mostViewArticleList);
 

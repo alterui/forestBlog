@@ -64,6 +64,10 @@ public class IndexController {
         List<Comment> recentCommentList = commentService.listRecentComment(10);
         model.addAttribute("recentCommentList", recentCommentList);
         model.addAttribute("pageUrlPrefix", "/article?pageIndex");
+
+        //热评文章
+        List<Article> mostCommentArticleList = articleService.listArticleByCommentCount(8);
+        model.addAttribute("mostCommentArticleList", mostCommentArticleList);
         return "Home/index";
     }
 

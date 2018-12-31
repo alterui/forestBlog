@@ -37,7 +37,7 @@
             <c:when test="${article.categoryList != null && article.categoryList.size() > 0}">
                 <c:forEach items="${article.categoryList}" var="c">
                     <i class="fa fa-angle-right"></i>
-                    <a href="/category/${c.categoryId}">
+                    <a href="/category/${c.categoryId}" target="_parent">
                             ${c.categoryName}
                     </a>
                 </c:forEach>
@@ -331,12 +331,12 @@
                             <c:if test="${sessionScope.user == null}">
                                 <input type="hidden" name="commentRole" value="0">
                                 <p class="comment-form-author">
-                                    <label for="author_name">昵称<span class="required">*</span></label>
-                                    <input type="id" name="commentAuthorName" id="author_name" class="" value="" tabindex="2" required>
+                                    <label for="author_name">昵&nbsp;&nbsp;&nbsp;&nbsp;称<span class="required"></span></label>
+                                    <input type="id" placeholder="请输入任意昵称" name="commentAuthorName" id="author_name" class="" value="" tabindex="2" required>
                                 </p>
                                 <p class="comment-form-email">
-                                    <label for="author_email">邮箱<span class="required">*</span></label>
-                                    <input type="email" name="commentAuthorEmail" id="author_email" class="" value="" tabindex="3" required>
+                                    <label for="author_email">邮&nbsp;&nbsp;&nbsp;&nbsp;箱<span class="required"></span></label>
+                                    <input type="email" placeholder="请输入正确的邮箱，以尽快收到回复提醒" name="commentAuthorEmail" id="author_email" class="" value="" tabindex="3" required>
                                 </p>
                                 <%--<p class="comment-form-url">
                                     <label for="author_url">网址</label>
