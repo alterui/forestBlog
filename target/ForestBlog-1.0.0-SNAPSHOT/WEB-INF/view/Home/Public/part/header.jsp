@@ -11,7 +11,7 @@
     <nav id="top-header">
         <div class="top-nav">
             <div class="user-login">
-                欢迎访问我的博客。欢迎加入JAVA学习交流群，群聊号码：937301951
+                欢迎访问我的个人博客
 
             </div>
             <%--<div class="user-login">

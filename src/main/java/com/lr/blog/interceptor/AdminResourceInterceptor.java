@@ -1,7 +1,6 @@
 package com.lr.blog.interceptor;
 
 import com.lr.blog.entity.User;
-
 import com.lr.blog.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.ModelMap;

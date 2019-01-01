@@ -64,11 +64,11 @@
         <%--博客主体-右侧侧边栏-随机文章 start--%>
         <aside id="random_post-7" class="widget random_post wow fadeInUp" data-wow-delay="0.3s">
             <h3 class="widget-title">
-                <i class="fa fa-bars"></i>猜你喜欢
+                <i class="fa fa-bars"></i>随机文章
             </h3>
             <div id="random_post_widget">
                 <ul>
-                    <c:forEach items="${mostViewArticleList}" var="r">
+                    <c:forEach items="${randomArticleList}" var="r">
                         <li>
                             <a href="/article/${r.articleId}" rel="bookmark">
                                     ${r.articleTitle}

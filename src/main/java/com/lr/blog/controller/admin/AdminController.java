@@ -74,7 +74,7 @@ public class AdminController {
     @RequestMapping(value = "/loginVerify",method = RequestMethod.POST)
     @ResponseBody
     public String loginVerify(HttpServletRequest request, HttpServletResponse response)  {
-        Map<String, Object> map = new HashMap<String, Object>();
+        Map<String, Object> map = new HashMap<>();
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");

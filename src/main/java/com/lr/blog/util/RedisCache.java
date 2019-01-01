@@ -14,7 +14,6 @@ import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**
- *
  * Created by ALTERUI
  */
 public class RedisCache implements Cache {

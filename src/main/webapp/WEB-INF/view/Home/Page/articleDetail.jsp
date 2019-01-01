@@ -69,16 +69,16 @@
                             ${article.articleContent}
                     </div>
                     <div class="s-weixin">
-                        <ul class="weimg1">
+                       <%-- <ul class="weimg1">
                             <li><strong>我的微信</strong></li>
-                            <%--<li>赶快加我聊天吧</li>--%>
+                            &lt;%&ndash;<li>赶快加我聊天吧</li>&ndash;%&gt;
                             <li><img src="/img/weixin1.jpg"></li>
                         </ul>
                         <ul class="weimg2">
                             <li><strong>JAVA学习交流群</strong></li>
-                           <%-- <li>JAVA学习交流群</li>--%>
+                           &lt;%&ndash; <li>JAVA学习交流群</li>&ndash;%&gt;
                             <li><img src="/img/qqGroup.jpg" alt="weinxin"></li>
-                        </ul>
+                        </ul>--%>
                         <div class="clear"></div>
                     </div>
                     <div class="clear"></div>
@@ -309,7 +309,7 @@
                     <form id="comment_form" method="post">
                         <c:if test="${sessionScope.user!=null}">
                             <div class="user_avatar">
-                                <img alt="言曌"
+                                <img alt=""
                                      src="${sessionScope.user.userAvatar}"
                                      class="avatar avatar-64 photo" height="64" width="64">
                                 登录者：${sessionScope.user.userNickname}
@@ -345,16 +345,20 @@
                                 </p>--%>
                             </c:if>
                         </div>
+
+
                         <div class="clear"></div>
+
+                        <span class="mail-notify">
+                            <input type="checkbox" name="comment_mail_notify" id="comment_mail_notify" checked="checked" class="notify" value="comment_mail_notify" />
+                            <label for="comment_mail_notify"><span>有回复时邮件通知我</span></label>
                         <p class="form-submit">
                             <input id="submit" name="submit" type="submit" tabindex="5" value="提交评论">
                             <input type="hidden" name="commentArticleId"
                                    value="${article.articleId}" id="article_id">
                             <input type="hidden" name="commentPid" id="comment_pid" value="0">
                         </p>
-                        <span class="mail-notify">
-													<input type="checkbox" name="comment_mail_notify" id="comment_mail_notify" checked="checked" class="notify" value="comment_mail_notify" />
-												<label for="comment_mail_notify"><span>有回复时邮件通知我</span></label>
+
 					</span>
                     </form>
                 </div>
