@@ -3,7 +3,7 @@ package com.lr.blog.enums;
 import lombok.Data;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 
 public enum CategoryStatus {

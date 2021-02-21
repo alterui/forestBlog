@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Data
 public class User implements Serializable{

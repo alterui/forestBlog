@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * 文章Mapper
- * Created by ALTERUI
+ * Created by lr
  */
 @Mapper
 public interface ArticleMapper {

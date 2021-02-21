@@ -5,7 +5,7 @@ import com.lr.blog.entity.Options;
 
 /**
  *
- * Created by ALTERUI
+ * Created by lr
  */
 public interface OptionsService {
     /**

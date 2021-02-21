@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 文章分类关联表
  *
- * Created by ALTERUI
+ * Created by lr
  */
 @Data
 public class ArticleCategoryRef implements Serializable{

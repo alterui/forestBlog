@@ -7,7 +7,7 @@ import java.util.Date;
 
 /**
  * 文章评论
- * Created by ALTERUI
+ * Created by lr
  */
 @Data
 public class Comment implements Serializable{

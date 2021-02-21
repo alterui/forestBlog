@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 文章Service
- * Created by ALTERUI
+ * Created by lr
  */
 public interface ArticleService {
 

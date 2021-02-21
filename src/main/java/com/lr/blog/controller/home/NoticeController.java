@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Controller
 public class NoticeController {

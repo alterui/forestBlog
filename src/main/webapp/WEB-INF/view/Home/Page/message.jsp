@@ -68,7 +68,7 @@
                 <script>
                     var gitment = new Gitment({
                         id: 'location.href', // 可选。默认为 location.href
-                        owner: 'alterui',
+                        owner: 'lr',
                         repo: 'comment',
                         oauth: {
                             client_id: 'f9ae1b799ca20058ed5f',

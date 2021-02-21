@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.List;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Controller
 @RequestMapping("/admin/menu")

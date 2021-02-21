@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * 文章标签关联表Mapper
- * Created by ALTERUI
+ * Created by lr
  */
 @Mapper
 public interface ArticleTagRefMapper {

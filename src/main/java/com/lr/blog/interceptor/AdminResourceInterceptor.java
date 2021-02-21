@@ -9,7 +9,7 @@ import org.springframework.web.context.request.WebRequestInterceptor;
 import javax.servlet.http.HttpSession;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 public class AdminResourceInterceptor implements WebRequestInterceptor {
 

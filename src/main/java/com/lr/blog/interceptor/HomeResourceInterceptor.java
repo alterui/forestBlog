@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- ** Created by ALTERUI
+ ** Created by lr
  */
 public class HomeResourceInterceptor implements WebRequestInterceptor {
     @Autowired

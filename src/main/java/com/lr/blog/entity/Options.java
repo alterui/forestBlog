@@ -5,7 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Data
 public class Options implements Serializable{

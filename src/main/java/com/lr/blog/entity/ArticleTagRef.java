@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 文章和标签关联
  *
- * Created by ALTERUI
+ * Created by lr
  */
 @Data
 public class ArticleTagRef implements Serializable {

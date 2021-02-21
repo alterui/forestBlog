@@ -1,7 +1,7 @@
 package com.lr.blog.dto;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 
 public class Response<T> {

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Service
 public class NoticeServiceImpl implements NoticeService {

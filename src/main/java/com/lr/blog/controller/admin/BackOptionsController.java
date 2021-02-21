@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Controller
 @RequestMapping("/admin/options")

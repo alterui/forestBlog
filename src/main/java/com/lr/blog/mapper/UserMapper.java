@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Mapper
 public interface UserMapper {

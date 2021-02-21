@@ -4,7 +4,7 @@ import com.lr.blog.entity.Options;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Mapper
 public interface OptionsMapper {

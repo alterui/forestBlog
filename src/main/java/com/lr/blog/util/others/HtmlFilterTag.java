@@ -1,7 +1,7 @@
 package com.lr.blog.util.others;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 import java.io.IOException;
 import java.io.StringWriter;

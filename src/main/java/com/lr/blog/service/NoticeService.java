@@ -5,7 +5,7 @@ import com.lr.blog.entity.Notice;
 import java.util.List;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 public interface NoticeService {
 

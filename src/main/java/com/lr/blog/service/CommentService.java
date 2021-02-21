@@ -8,7 +8,7 @@ import java.util.List;
 
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Service
 public interface CommentService {

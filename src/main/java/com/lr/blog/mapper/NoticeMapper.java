@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 @Mapper
 public interface NoticeMapper {

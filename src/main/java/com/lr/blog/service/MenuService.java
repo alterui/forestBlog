@@ -5,7 +5,7 @@ import com.lr.blog.entity.Menu;
 import java.util.List;
 
  /**
-  * Created by ALTERUI
+  * Created by lr
   */
  public interface MenuService {
      /**

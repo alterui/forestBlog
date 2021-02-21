@@ -3,7 +3,7 @@ package com.lr.blog.dto;
 import lombok.Data;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 
 @Data

@@ -1,7 +1,7 @@
 package com.lr.blog.enums;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 
 public enum PageStatus {

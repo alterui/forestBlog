@@ -7,7 +7,7 @@ import com.lr.blog.entity.Category;
 import java.util.List;
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 public interface CategoryService {
     /**

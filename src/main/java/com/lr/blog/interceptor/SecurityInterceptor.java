@@ -9,7 +9,7 @@ import java.io.IOException;
 
 
 /**
- * Created by ALTERUI
+ * Created by lr
  */
 public class SecurityInterceptor implements HandlerInterceptor {
 

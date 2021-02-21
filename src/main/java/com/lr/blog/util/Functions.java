@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 
 /**
  * 常用的方法
- * Created by ALTERUI
+ * Created by lr
  */
 
 public class Functions {

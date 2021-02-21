@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  *
- * Created by ALTERUI
+ * Created by lr
  */
 public interface LinkService {
 
